@@ -20,7 +20,7 @@ class Password:
 
         passwordFile.close()
 
-        return passwordList, passwordLength #yes
+        return passwordList, passwordLength
 
     def findMinMax(self):
         minimum = self.passwordList[0]

@@ -1,0 +1,50 @@
+Estimated Password Policy 
+Length: 1-30
+None Alphanumeric Symbols: 
+._-+*@/=,\"&$!#?')(%][ ^}<`>{
+Char Case enforcement unlikely
+
+Statistics
+Shortest Length : 1
+0
+
+Longest Length : 30
+lafaroleratropezoooooooooooooo
+
+Most Popular Passwords 
+1. adidas, 2
+2. lafaroleratropezoooooooooooooo, 2
+3. 407078811amacalli, 2
+4. 407078811amacall, 2
+5. 123456, 1
+6. 123456789, 1
+7. alejandra, 1
+8. 111111, 1
+9. tequiero, 1
+10. alejandro, 1
+
+Password Lengths
+6 : 20.4%
+8 : 19.8%
+7 : 14.61%
+9 : 12.28%
+10 : 8.65%
+11 : 6.32%
+
+Percentages
+Number of passwords: 8930
+All Uppercase: 72.25%
+All Lowercase: 5.02%
+All Alphabet: 44.87%
+All Alphanumerical: 93.02%
+
+1. . : 236
+2. _ : 135
+3. - : 113
+4. + : 94
+5. * : 87
+6. @ : 71
+7. / : 66
+8. = : 58
+9. , : 34
+10. \ : 27

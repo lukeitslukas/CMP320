@@ -1,0 +1,49 @@
+Estimated Password Policy 
+Length: 1-599
+None Alphanumeric Symbols: 
+@!*$-#._ %+&=,?/^(){\;[~]">}<'`|
+Char Case enforcement unlikely
+
+Statistics
+Shortest Length : 1
+b
+
+Longest Length : 599
+01 00 00 00 d0 8c 9d df 01 15 d1 11 8c 7a 00 c0 4f c2 97 eb 01 00 00 00 0c 58 13 5d 28 8d ae 48 af 75 c0 5c 10 07 7c 8d 00 00 00 00 18 00 00 00 57 00 49 00 4e 00 49 00 4e 00 45 00 54 00 43 00 72 00 65 00 64 00 00 00 03 66 00 00 a8 00 00 00 10 00 00 00 ec c2 03 64 c5 05 31 88 55 ce 02 22 f2 f3 f9 76 00 00 00 00 04 80 00 00 a0 00 00 00 10 00 00 00 24 81 bf 59 c6 47 b0 a9 52 15 6e d1 12 bc ee 14 28 00 00 00 a7 64 9e 75 28 c5 00 9f 47 9d 6a e0 1e 73 d4 7c 11 02 9f b2 8a da a9 3f 11 4b ba ba 93 bd 35 59 5c b3 6b 32 96 62 ea 84 14 00 00 00 ad 1b a1 c5 5b c0 10 8f 74 5a dc 50 21 5d 12 da e0 e0 bd 51
+
+Most Popular Passwords 
+1. Temporal2020, 2328
+2. asdf123, 1560
+3. 123456, 1524
+4. pass@123, 1156
+5. Juzgado2020, 1010
+6. _, 911
+7. SSLVPN-LAN, 760
+8. U-SG-SSL-General_User, 725
+9. Test1234, 720
+10. Reset123, 704
+
+Password Lengths
+8 : 20.84%
+9 : 15.14%
+10 : 15.1%
+12 : 10.52%
+11 : 10.44%
+
+Percentages
+Number of passwords: 398826
+All Uppercase: 25.95%
+All Lowercase: 4.94%
+All Alphabet: 4.67%
+All Alphanumerical: 46.74%
+
+1. @ : 81765
+2. ! : 40584
+3. * : 27436
+4. $ : 26065
+5. - : 24555
+6. # : 23970
+7. . : 23657
+8. _ : 19799
+9.   : 13052
+10. % : 9204

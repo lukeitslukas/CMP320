@@ -1,10 +1,12 @@
 from Password import Password
 from collections import Counter
 import textwrap
+import os
 
 
 def report(run):
-    output = open(run.filename + 'Output.txt', 'w')
+    os.makedirs(os.path.dirname(run.filename + '/'), exist_ok=True)
+    output = open(run.filename + '/Output.txt', 'w')
 
     output.write('Estimated Password Policy \n')
     output.write('Length: ' + str(len(run.minimum)) + '-' + str(len(run.maximum)) + '\n')
@@ -31,7 +33,7 @@ def report(run):
         output.write('\n')
     output.write('\n')
 
-    with open(run.filename + 'PasswordsOutput.csv', 'w') as csvOutput:
+    with open(run.filename + '/PasswordsOutput.csv', 'w') as csvOutput:
         csvOutput.write('password, occurrences\n')
         for i in range(1, len(passwords.most_common(101))):
             csvOutput.write(passwords.most_common(101)[i-1][0] + ', ' + str(passwords.most_common(101)[i-1][1]))
@@ -45,7 +47,7 @@ def report(run):
                          '%\n')
     output.write('\n')
 
-    with open(run.filename + 'PasswordLenOutput.csv', 'w') as csvOutput:
+    with open(run.filename + '/PasswordLenOutput.csv', 'w') as csvOutput:
         csvOutput.write('length, occurrences\n')
         for key, value in run.passwordLength.items():
             csvOutput.write(str(key) + ', ' + str(value) + '\n')
@@ -57,12 +59,11 @@ def report(run):
     output.write('All Alphabet: ' + str(run.statistics[2]) + '%\n')
     output.write('All Alphanumerical: ' + str(run.statistics[3]) + '%\n')
     output.write('\n')
-    #comment to cry
+
     count = Counter(run.allSymbols)
     for i in range(1, len(count.most_common(11))):
         output.write(str(i) + '. ' + count.most_common(11)[i-1][0] + ' : ' + str(count.most_common(11)[i-1][1]))
         output.write('\n')
-
 
     output.close()
 
